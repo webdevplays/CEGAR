@@ -22,7 +22,7 @@ a {
 
 header {
   height: 41.54479166vw;
-  background-color: #cdff00;
+  background-image: url("/bg.jpg");
   border-bottom: 0.4629vw solid #000000;
 
   flex-direction: column;
@@ -112,7 +112,7 @@ nav {
 }
 
 .trell-header-logo {
-  width: 75vw;
+  width: 50vw;
   bottom: 0vw;
   position: absolute;
   pointer-events: none;
@@ -160,7 +160,7 @@ nav {
   font-family: "Merriweather Sans", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  color: #cdff00;
+  color: #ff9100;
   background-color: #000000;
   width: fit-content;
   font-size: 3.7037vw;
@@ -178,7 +178,7 @@ nav {
 }
 
 .about-info-top {
-  background-color: #cdff00;
+  background-image: url("/bg.jpg");
   height: 5.55vw;
   width: 46vw;
   position: absolute;
@@ -194,7 +194,7 @@ nav {
   border-top-left-radius: 1.1574vw;
   border-bottom-left-radius: 1.1574vw;
   border-bottom-right-radius: 1.1574vw;
-  background-color: #cdff00;
+  background-image: url("/bg.jpg");
   border: 0.4629vw #000000 solid;
   padding-top: 5.787037vw;
   position: relative;
@@ -250,8 +250,8 @@ nav {
   font-family: "Merriweather Sans", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  color: #cdff00;
-  font-size: 3.2407vw;
+  color: #fc7a00;
+  font-size: 2.2407vw;
 
   font-family: "Comic Relief", system-ui;
   font-weight: 700;
@@ -315,7 +315,7 @@ nav {
 .card-body {
   position: relative;
   height: 23.1481vw;
-  background-color: #cdff00;
+  background-image: url("/bg.jpg");
   border-radius: 1.1574vw;
 }
 
@@ -362,12 +362,21 @@ nav {
   color: #000;
 }
 
+.chart{
+  width: 85%;
+  height: auto;
+  position: inherit;
+  padding: inherit;
+  margin-left: 7vw;
+}
+
 .card-img-text {
   font-family: "Comic Relief", system-ui;
   font-weight: 700;
   position: absolute;
-  font-size: 1.5vw;
+  font-size: 1.6vw;
   top: 1vw;
+  -webkit-text-stroke:#e0e4d3 0.1vw;
 }
 
 /*=================================================*/
@@ -405,7 +414,7 @@ nav {
 }
 
 #copy {
-  color: #cdff00;
+  color: #ff8800;
   font-size: 4.7453vw;
 }
 
@@ -422,7 +431,7 @@ nav {
 }
 
 .imgs-container-tokenomics {
-  background-color: #cdff00;
+  background-image: url("/bg.jpg");
   width: 95%;
   height: 95%;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
@@ -460,7 +469,7 @@ footer {
 }
 
 .yellow-color {
-  color: #cdff00;
+  color: #ff8800;
 }
 
 .tokenomics-left-container {
